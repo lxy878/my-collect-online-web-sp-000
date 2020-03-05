@@ -1,7 +1,9 @@
 def my_collect(array)
   collect = []
-  array[0..-1].times do |n|
-    collect << yield(n)
+  i = 0
+  while i<array.size
+    
+    i+=1
   end
   collect
 end
